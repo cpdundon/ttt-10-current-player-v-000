@@ -9,5 +9,9 @@ def turn_count(board)
 end
 
 def current_player(board)
+  turns = turn_count(board)
+  
+  if turns.even then
+    
   
 end
